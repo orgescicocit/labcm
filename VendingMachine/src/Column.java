@@ -6,6 +6,7 @@ class Column {
 	public Column(String name, int quantity) {
 		this.name = name;
 		this.quantity = quantity;
+		test
 	}
 
 	public String getNome() {
