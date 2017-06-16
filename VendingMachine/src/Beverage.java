@@ -8,6 +8,8 @@ class Beverage {
 	public Beverage(String name, double price) {
 		this.name = name;
 		this.price = price;
+		
+		
 	}
 
 	public String getName() {
@@ -15,7 +17,7 @@ class Beverage {
 	}
 
 	public double getPrice() {
-		return price;
+		return price+1;
 	}
 	
 }
